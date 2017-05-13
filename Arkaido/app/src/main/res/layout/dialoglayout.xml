@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:background="#FFFFFF"
+    >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="On Click/Motion"
+    android:textSize="20dp"
+    android:textColor="#000000"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="30dp"
+    />
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp" />
+
+    <Button
+        android:text="Accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/switch1"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
